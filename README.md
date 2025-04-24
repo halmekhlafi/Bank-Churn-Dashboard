@@ -1,3 +1,6 @@
+## Problem statement 
+The bank is experiencing customer attrition and seeks to understand the underlying behaviors and patterns driving churn. By analyzing customer subscriptions, service usage, and demographic details, the goal is to gain insights into how customers experience the bank's services and what factors contribute to their decision to leave
+
 ## Data Preparation & Business Dashboard Insights
 🧼 Data Cleaning & Transformation
 After importing and merging raw Excel data, the following preprocessing steps were applied to ensure consistency and readiness for visualization:
@@ -16,7 +19,7 @@ Replaced missing/infinite values in Age with 0 and converted to int.
 Binned Age into 5 age groups for segmentation (e.g., 18–31, 32–46, etc.).
 
 ### 💾 Export Ready
-Final dataset was prepared for visualization and optionally saved as a CSV.
+The final dataset was prepared for visualization and optionally saved as a CSV.
 
 # df.to_csv('Bank_Churn_Messy.csv', index=False)
 #### 📈 Business Dashboard Insights
@@ -65,7 +68,7 @@ Suggests churn is driven more by experience or service than by financial status.
 
 6. Customer Activity:
 
-Customers without a credit card and those inactive churn more frequently.
+Customers without a credit card and those who are inactive churn more frequently.
 
 Encouraging product engagement and credit usage may improve retention.
 
@@ -77,6 +80,8 @@ This dashboard empowers business teams to:
 -Improve onboarding experiences for new customers.
 
 -Localize service improvements based on geography-specific churn patterns.
+
+-Customize accounts based on the customer's financial 
 
 -Align product and credit offerings with engagement and loyalty goals.
 
